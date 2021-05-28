@@ -17,6 +17,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         // Receiving the message from the Main activity's textView.
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
+        // Connecting the TextView UI element to the variable of type TextView.
         TextView displayMessage = findViewById(R.id.id_display_message);
         displayMessage.setText(message);
     }
