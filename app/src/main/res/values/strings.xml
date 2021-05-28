@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="Typos">Lab1_Ex1</string>
+    <string name="str_send_btn">Send</string>
+    <string name="str_edit_text_hint">Enter something</string>
+    <string name="str_textFieldIsEmpty">Text field cannot be empty</string>
+    <string name="str_displayMessage">Hello World!</string>
+</resources>
